@@ -12,7 +12,14 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        chivo: ['var(--font-chivo)'],
+        josefin: ['var(--font-josefin-slab)'],
+        imFeel: ['var(--font-im-feel-great-primer)'],
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
