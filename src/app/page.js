@@ -8,8 +8,8 @@ import Countdown from "./countdown";
 
 export default function Home() {
   return (
-    <div className="grid w-full h-full min-h-screen grid-cols-2 grid-rows-1">
-      <div className="px-[61px] grid grid-rows-4 bg-white #gap-[50px] items-center">
+    <div className="grid w-full h-full min-h-screen grid-rows-1 lg:grid-cols-2">
+      <div className="px-[61px] grid grid-rows-4 bg-white #gap-[50px] items-center order-2 py-[40px]  xl:py-[0]">
         <div className="flex items-center justify-center w-full h-full">
           <Image src={Logo} alt="Oryx" className="object-contain"></Image>
         </div>
@@ -19,7 +19,7 @@ export default function Home() {
               STAY TUNED
             </p>
             <div className="space-y-[5px] flex flex-col items-center justify-center">
-              <p className="text-[64px] text-black text-center font-imFeel">
+              <p className="text-[48px] xl:text-[64px]  text-black text-center font-imFeel">
                 We Will Launch Soon
               </p>
               <p className="text-[#00000080] text-[14px] font-chivo">
@@ -31,10 +31,10 @@ export default function Home() {
           <div className="flex space-x-[25px] items-center">
             <input
               type="text"
-              className="border-black focus:shadow-md font-chivo border-[1px] rounded-[15px] text-[#00000066] text-[24px]"
+              className="border-black focus:shadow-md font-chivo border-[1px] rounded-[15px] text-[#00000066] text-[16px] xl:text-[24px]"
               placeholder="Enter your e-mail"
             />
-            <button className="rounded-[15px] bg-[#2F2013] border-black font-chivo border-[1px] shadow p-[10px] hover:opacity-[0.9] active:opacity-[0.8] active:scale-95">
+            <button className="rounded-[15px] bg-[#2F2013] border-black font-chivo border-[1px] shadow p-[10px] hover:opacity-[0.9] active:opacity-[0.8] active:scale-95 text-[14px] xl:text-[16px]">
               NOTIFY ME
             </button>
           </div>
@@ -74,7 +74,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="bg-cover bg-[url(../assets/images/background.png)] bg-no-repeat flex items-center justify-center space-x-[30px]">
+      <div className="bg-cover bg-[url(../assets/images/background.png)] lg:order-[3] bg-no-repeat flex items-center justify-center space-x-[30px] xl:py-[0] py-[24px]">
         {/* <div className="flex items-center justify-center space-x-[30px] w-full">
           {["30", "15", "40", "05"].map((value) => (
             <p key={value} className="text-[45px] text-white">

@@ -48,12 +48,12 @@ export default function Countdown() {
       ].map((value, index) => (
         <div
           key={value.key}
-          className="flex flex-col justify-center items-center space-y-[20px] font-chivo"
+          className="flex flex-col justify-center items-center space-y-[16px] xl:space-y-[20px] font-chivo"
         >
-          <p className={`text-[45px] text-white ${value.className}`}>
+          <p className={`text-[32px] xl:text-[45px] text-white ${value.className}`}>
             {countDown[index]}
           </p>
-          <p className="text-[24px] text-white">{value.key}</p>
+          <p className="text-[16px] xl:text-[24px] text-white">{value.key}</p>
         </div>
       ))}
     </>
