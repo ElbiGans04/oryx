@@ -15,14 +15,14 @@ export default function Home() {
         </div>
         <div className="row-span-2 flex flex-col items-center justify-center space-y-[60px]">
           <div className="flex flex-col items-center justify-center space-y-[15px]">
-            <p className="text-[18px] text-[rgba(0,_0,_0,_0.70)] font-josefin">
+            <p className="text-[18px] text-[rgba(0,_0,_0,_0.70)] font-josefin text-center">
               STAY TUNED
             </p>
             <div className="space-y-[5px] flex flex-col items-center justify-center">
               <p className="text-[48px] xl:text-[64px]  text-black text-center font-imFeel">
                 We Will Launch Soon
               </p>
-              <p className="text-[#00000080] text-[14px] font-chivo">
+              <p className="text-[#00000080] text-[14px] font-chivo text-center">
                 subscribe to get notification as soon as we launch!
               </p>
             </div>
@@ -34,7 +34,7 @@ export default function Home() {
               className="border-black focus:shadow-md font-chivo border-[1px] rounded-[15px] text-[#00000066] text-[16px] xl:text-[24px]"
               placeholder="Enter your e-mail"
             />
-            <button className="rounded-[15px] bg-[#2F2013] border-black font-chivo border-[1px] shadow p-[10px] hover:opacity-[0.9] active:opacity-[0.8] active:scale-95 text-[14px] xl:text-[16px]">
+            <button className="rounded-[15px] text-white bg-[#2F2013] border-black font-chivo border-[1px] shadow p-[10px] hover:opacity-[0.9] active:opacity-[0.8] active:scale-95 text-[14px] xl:text-[16px]">
               NOTIFY ME
             </button>
           </div>
