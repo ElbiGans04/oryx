@@ -3,7 +3,7 @@ import Logo from "../assets/images/Logo_Oryx.png";
 import LogoFacebook from "../assets/icons/Facebook.png";
 import LogoInstagram from "../assets/icons/Instagram.png";
 import LogoTwitter from "../assets/icons/Twitter.png";
-import LogoYoutube from "../assets/icons/Youtube.png";
+import LogoYoutube from "../assets/icons/YouTube.png";
 import Countdown from "./countdown";
 
 export default function Home() {
