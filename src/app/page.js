@@ -5,7 +5,7 @@ import LogoInstagram from "../assets/icons/Instagram.png";
 import LogoTwitter from "../assets/icons/Twitter.png";
 import LogoYoutube from "../assets/icons/YouTube.png";
 import Countdown from "./countdown";
-
+import {BsSend} from 'react-icons/bs'
 export default function Home() {
   return (
     <div className="grid w-full h-full min-h-screen grid-rows-1 lg:grid-cols-2">
@@ -35,7 +35,8 @@ export default function Home() {
               placeholder="Enter your e-mail"
             />
             <button className="rounded-[15px] text-white bg-[#2F2013] border-black font-chivo border-[1px] shadow p-[10px] hover:opacity-[0.9] active:opacity-[0.8] active:scale-95 text-[14px] xl:text-[16px]">
-              NOTIFY ME
+              {/* NOTIFY ME */}
+              <BsSend className="text-[18px] xl:text-[26px]" />
             </button>
           </div>
         </div>
