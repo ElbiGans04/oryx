@@ -9,7 +9,7 @@ import {BsSend} from 'react-icons/bs'
 export default function Home() {
   return (
     <div className="grid w-full h-full min-h-screen grid-rows-1 lg:grid-cols-2">
-      <div className="px-[61px] grid grid-rows-4 bg-white #gap-[50px] items-center order-2 py-[40px]  xl:py-[0]">
+      <div className="lg:px-[61px] px-[20px] md:px-[30px] grid grid-rows-4 bg-white #gap-[50px] items-center order-2 py-[40px]  xl:py-[0]">
         <div className="flex items-center justify-center w-full h-full">
           <Image src={Logo} alt="Oryx" className="object-contain"></Image>
         </div>
